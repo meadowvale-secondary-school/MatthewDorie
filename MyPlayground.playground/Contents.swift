@@ -1,6 +1,12 @@
 import UIKit
+
 // test comment to test github
+<<<<<<< HEAD
 // test edit on the master branch 
+=======
+// another comment to test pushingto a branch in github
+
+>>>>>>> Exercise-2
 let name = "john"
 print(name)
 
