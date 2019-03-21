@@ -37,3 +37,14 @@ struct Employee2: Equatable {
         side and right hand side are equal. */
     }
 }
+
+struct Employee: Equatable {
+    var firstName: String
+    var lastName: String
+    var jobTitle: String
+    var phoneNumber: String
+    
+    static func ==(1hs: Employee, rhs: Employee) -> Bool {
+        return  1hs.firstName == rhs.firstName && 1hs.lastName == rhs.lastName
+    }
+}
