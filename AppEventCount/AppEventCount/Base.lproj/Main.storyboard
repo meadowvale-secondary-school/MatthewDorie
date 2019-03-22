@@ -27,8 +27,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Active" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfG-9B-uuK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfG-9B-uuK">
                                 <rect key="frame" x="139" y="248" width="96" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="1VG-i6-zMa"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -64,10 +67,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="gst-AG-xwb" firstAttribute="top" secondItem="GIG-af-GHk" secondAttribute="bottom" constant="58" id="4dt-gg-NBr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pfG-9B-uuK" secondAttribute="trailing" constant="140" id="70h-jR-NlV"/>
                             <constraint firstItem="pfG-9B-uuK" firstAttribute="top" secondItem="gst-AG-xwb" secondAttribute="bottom" constant="80.5" id="CN5-VL-Wrk"/>
                             <constraint firstItem="ePC-1Q-UV8" firstAttribute="top" secondItem="JFN-TY-1Up" secondAttribute="bottom" constant="76" id="J3h-3o-Y7v"/>
+                            <constraint firstItem="pfG-9B-uuK" firstAttribute="top" secondItem="gst-AG-xwb" secondAttribute="bottom" constant="80.5" id="Q7t-B9-7Hf"/>
                             <constraint firstItem="gst-AG-xwb" firstAttribute="top" secondItem="GIG-af-GHk" secondAttribute="bottom" constant="58" id="Qhg-oX-DhP"/>
                             <constraint firstItem="ePC-1Q-UV8" firstAttribute="top" secondItem="JFN-TY-1Up" secondAttribute="bottom" constant="76" id="UXO-3e-yqU"/>
+                            <constraint firstItem="JFN-TY-1Up" firstAttribute="top" secondItem="pfG-9B-uuK" secondAttribute="bottom" constant="77.5" id="V1i-TF-4vw"/>
                             <constraint firstItem="gst-AG-xwb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="bnz-kD-ftV"/>
                             <constraint firstItem="GIG-af-GHk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="hAX-ev-4jL"/>
                             <constraint firstItem="JFN-TY-1Up" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="hjZ-hK-PDL"/>
@@ -78,6 +84,7 @@
                             <constraint firstItem="GIG-af-GHk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="n9D-tI-uQh"/>
                             <constraint firstItem="JFN-TY-1Up" firstAttribute="top" secondItem="pfG-9B-uuK" secondAttribute="bottom" constant="77.5" id="qIv-ia-z89"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JFN-TY-1Up" secondAttribute="trailing" constant="140" id="vEK-Nc-RZB"/>
+                            <constraint firstItem="pfG-9B-uuK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="zv9-fe-bEq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

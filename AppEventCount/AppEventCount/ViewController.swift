@@ -18,3 +18,8 @@ class ViewController: UIViewController {
 
 }
 
+var launchCount = 0
+
+didFinishLaunchingLabel.text = "The app has launched \
+(launchCount) time(s)"
+
