@@ -1,6 +1,6 @@
 /*:
  ## Exercise: Use Playgrounds
- 
+ test
  The code below prints a few short statements about what you have learned in this lesson. Open the console area and view the code's output.
  */
 
