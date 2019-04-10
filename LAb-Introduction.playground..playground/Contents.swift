@@ -1,7 +1,3 @@
-import UIKit
-
-var str = "Hello, playground"
-
 /*:
  ## Exercise: Use Playgrounds
  
